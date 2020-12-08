@@ -1,0 +1,45 @@
+RewriteEngine On
+
+# Some hosts may require you to use the `RewriteBase` directive.
+# If you need to use the `RewriteBase` directive, it should be the
+# absolute physical path to the directory that contains this htaccess file.
+#
+
+#RewriteBase /var/www/public
+
+RewriteCond %{HTTPS_HOST} ^3\.13\.71\.38$
+RewriteRule ^(.*)$ https://nuppin.com/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{HTTP_HOST} api\.nuppin.com [NC]
+RewriteRule ^ /api/index.php [QSA,L]
+RewriteRule .* - [env=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+RewriteCond %{HTTPS} !on
+RewriteCond %{SERVER_PORT} !^443$
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTP_HOST} !^api [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{HTTP_HOST} ^parceiro\.nuppin.*$ [NC]
+RewriteRule ^ /site/index.html [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{HTTP_HOST} ^vendas\.nuppin.*$ [NC]
+RewriteRule ^ /site/index.html [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{HTTP_HOST} ^nuppin.*$ [NC]
+RewriteRule ^ /site/index.html [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{HTTP_HOST} ^stores.*$ [NC]
+RewriteRule ^ /ecommerces/index.html [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{HTTP_HOST} ^ [NC]
+RewriteRule ^ /ecommerces/index.html [QSA,L]

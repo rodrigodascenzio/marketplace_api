@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.js": "./site/static/js/main.75882dce.chunk.js",
+    "main.js.map": "./site/static/js/main.75882dce.chunk.js.map",
+    "runtime-main.js": "./site/static/js/runtime-main.eb307cf8.js",
+    "runtime-main.js.map": "./site/static/js/runtime-main.eb307cf8.js.map",
+    "static/css/2.764ccc25.chunk.css": "./site/static/css/2.764ccc25.chunk.css",
+    "static/js/2.355bf74a.chunk.js": "./site/static/js/2.355bf74a.chunk.js",
+    "static/js/2.355bf74a.chunk.js.map": "./site/static/js/2.355bf74a.chunk.js.map",
+    "index.html": "./site/index.html",
+    "precache-manifest.42e0de68c7f2021507c348f0c6c27d9c.js": "./site/precache-manifest.42e0de68c7f2021507c348f0c6c27d9c.js",
+    "service-worker.js": "./site/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "./site/static/css/2.764ccc25.chunk.css.map",
+    "static/js/2.355bf74a.chunk.js.LICENSE.txt": "./site/static/js/2.355bf74a.chunk.js.LICENSE.txt",
+    "static/media/Analytics.svg": "./site/static/media/Analytics.10b4f000.svg",
+    "static/media/Get_Started.svg": "./site/static/media/Get_Started.778a1df3.svg",
+    "static/media/Report.svg": "./site/static/media/Report.17a4731c.svg",
+    "static/media/Security.svg": "./site/static/media/Security.661c1399.svg",
+    "static/media/analyse.svg": "./site/static/media/analyse.156afbff.svg",
+    "static/media/business_meeting.svg": "./site/static/media/business_meeting.bce5456d.svg",
+    "static/media/error.svg": "./site/static/media/error.d7652ed1.svg",
+    "static/media/google-play-badge.png": "./site/static/media/google-play-badge.445ecd84.png",
+    "static/media/growth_2.svg": "./site/static/media/growth_2.90209e5f.svg",
+    "static/media/healthy_eating.svg": "./site/static/media/healthy_eating.e1e8e3e1.svg",
+    "static/media/location_color.svg": "./site/static/media/location_color.b83afe32.svg",
+    "static/media/meditation.svg": "./site/static/media/meditation.1e34442a.svg",
+    "static/media/misc_bk1.jpg": "./site/static/media/misc_bk1.97533185.jpg",
+    "static/media/nuppin.png": "./site/static/media/nuppin.d90ce15c.png",
+    "static/media/support.svg": "./site/static/media/support.9eba24b0.svg",
+    "static/media/web_dev.svg": "./site/static/media/web_dev.a827f8fb.svg",
+    "static/media/welcome.svg": "./site/static/media/welcome.3934039f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb307cf8.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.355bf74a.chunk.js",
+    "static/js/main.75882dce.chunk.js"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "./ecommerces/static/js/main.dbaa3716.chunk.js",
+    "main.js.map": "./ecommerces/static/js/main.dbaa3716.chunk.js.map",
+    "runtime-main.js": "./ecommerces/static/js/runtime-main.cc848250.js",
+    "runtime-main.js.map": "./ecommerces/static/js/runtime-main.cc848250.js.map",
+    "static/css/2.764ccc25.chunk.css": "./ecommerces/static/css/2.764ccc25.chunk.css",
+    "static/js/2.c0d6afcb.chunk.js": "./ecommerces/static/js/2.c0d6afcb.chunk.js",
+    "static/js/2.c0d6afcb.chunk.js.map": "./ecommerces/static/js/2.c0d6afcb.chunk.js.map",
+    "index.html": "./ecommerces/index.html",
+    "precache-manifest.f415516cd4227caf5f16ba3266a9a4a6.js": "./ecommerces/precache-manifest.f415516cd4227caf5f16ba3266a9a4a6.js",
+    "service-worker.js": "./ecommerces/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "./ecommerces/static/css/2.764ccc25.chunk.css.map",
+    "static/js/2.c0d6afcb.chunk.js.LICENSE.txt": "./ecommerces/static/js/2.c0d6afcb.chunk.js.LICENSE.txt",
+    "static/media/error.svg": "./ecommerces/static/media/error.d7652ed1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc848250.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.c0d6afcb.chunk.js",
+    "static/js/main.dbaa3716.chunk.js"
+  ]
+}
